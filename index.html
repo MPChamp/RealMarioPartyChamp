@@ -54,25 +54,13 @@
   </section>
   <section id="socials">
     <h2>Social Media</h2>
-  const socialLinks = [
-  { name: "Twitch", link: "https://www.twitch.tv/thebeefproductions" },
-  { name: "Twitter", link: "https://twitter.com/beefproduction" },
-  { name: "Instagram", link: "https://www.instagram.com/thebeefproduction" },
-  { name: "Tiktok", link: "https://www.tiktok.com/@beefproductions" },
-  { name: "YouTube", link: "https://www.youtube.com/@mariopartygods920" }
-];
-
-const socialLinksContainer = document.createElement("div");
-
-socialLinks.forEach(link => {
-  const a = document.createElement("a");
-  a.href = link.link;
-  a.target = "_blank";
-  a.innerHTML = link.name;
-  socialLinksContainer.appendChild(a);
-});
-
-document.body.appendChild(socialLinksContainer);
+  <div>
+    <a href="https://www.twitch.tv/thebeefproductions" target="_blank">Twitch</a>
+    <a href="https://twitter.com/beefproduction" target="_blank">Twitter</a>
+    <a href="https://www.instagram.com/thebeefproduction" target="_blank">Instagram</a>
+    <a href="https://www.tiktok.com/@beefproductions" target="_blank">Tiktok</a>
+    <a href="https://www.youtube.com/channel/UCW0sfCZwXGU4neW6LoB_o6g" target="_blank">YouTube</a>
+</div>
     </section>
   <section id="contact">
     <h2>Contact the Mario Party Champion</h2>
