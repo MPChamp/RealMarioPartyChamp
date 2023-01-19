@@ -4,81 +4,93 @@
   <title>Mario Party Champion</title>
   <style>
     body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
 
-h1, h2 {
-  text-align: center;
-}
+    h1, h2 {
+        text-align: center;
+    }
 
-nav {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-}
+    nav {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+    }
 
-nav a {
-  color: #fff;
-  text-decoration: none;
-  padding: 10px;
-  display: inline-block;
-}
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px;
+        display: inline-block;
+    }
 
-nav a:hover {
-  background-color: #fff;
-  color: #333;
-}
+    nav a:hover {
+        background-color: #fff;
+        color: #333;
+    }
 
-section {
-  padding: 20px;
-}
+    section {
+        padding: 20px;
+    }
 
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin: auto;
-}
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: auto;
+    }
 
-th, td {
-  border: 1px solid #333;
-  padding: 10px;
-}
+    th, td {
+        border: 1px solid #333;
+        padding: 10px;
+    }
 
-form {
-  text-align: center;
-}
+    img {
+        width: 50%;
+        height: auto;
+        border: 1px solid black;
+        margin: 20px 0;
+    }
 
-label, input {
-  display: block;
-  margin: 10px 0;
-}
+    img:hover {
+        border: 1px solid blue;
+    }
 
-input[type=submit] {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-}
+    /* Add some spacing and new styling for the section text */
+    section p {
+        margin: 20px;
+        text-align: justify;
+    }
 
-input[type=submit]:hover {
-  background-color: #fff;
-  color: #333;
-}
-img{
-  width:50%;
-  height:auto;
-  border:1px solid black;
-}
-img:hover{
-  border:1px solid blue;
-}
-.float-left {
-  float: left;
-}
-  </style>
+    /* Use a CSS grid to layout the leaderboard table */
+    section#leaderboard table {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row-gap: 10px;
+    }
+
+    /* Style the social media links */
+    section#socials ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+    }
+
+    section#socials li {
+        margin: 0 10px;
+    }
+
+    section#socials a {
+        color: #333;
+        text-decoration: none;
+    }
+
+    section#socials a:hover {
+        color: #f00;
+    }
+</style>
 </head>
 <body>
   <h1>Welcome to the Mario Party Champion Website</h1>
