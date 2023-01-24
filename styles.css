@@ -13,11 +13,17 @@
         color: #fff;
         text-align: center;
     }
-
+    nav ul {
+        display: flex;
+        align-items: center;
+        justify-contents: center;
+     
+        list-style: none;
+    }
     nav a {
         color: #fff;
         text-decoration: none;
-        padding: 10px;
+        padding: 10px 15px;
         display: inline-block;
     }
 
