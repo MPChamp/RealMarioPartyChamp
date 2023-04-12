@@ -115,24 +115,19 @@ section p {
 }
 
 table {
-  border-collapse: collapse;
-  width: 100%;
+border-collapse: collapse;
+width: 100%;
 }
 
 th, td {
-  padding: 12px 15px;
-  text-align: left;
+padding: 10px;
+text-align: left;
+border-bottom: 1px solid #ddd;
 }
 
 th {
-  background-color: #0077cc;
-  color: #fff;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-td {
-  border-bottom: 1px solid #ccc;
+background-color: #333;
+color: #fff;
 }
 
 img {
