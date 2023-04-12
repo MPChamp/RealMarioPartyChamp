@@ -36,8 +36,7 @@ nav {
 }
 
 nav a {
-  float: left;
-  display: block;
+  display: inline-block;
   color: #fff;
   text-align: center;
   padding: 14px 16px;
