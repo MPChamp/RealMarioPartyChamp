@@ -68,23 +68,6 @@ nav .icon {
   }
 }
 
-@media screen and (max-width: 600px) {
-  nav.responsive {
-    position: relative;
-  }
-  nav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  nav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-    margin-top: 10px;
-  }
-}
-
 /* Link styles */
 a {
   color: #0077cc;
