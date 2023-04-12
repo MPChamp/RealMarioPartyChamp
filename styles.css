@@ -58,6 +58,16 @@ nav .icon {
   display: none;
 }
 
+@media screen and (max-width: 600px) {
+  nav a:not(:first-child) {
+    display: none;
+  }
+  nav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
 /* Link styles */
 a {
   color: #0077cc;
