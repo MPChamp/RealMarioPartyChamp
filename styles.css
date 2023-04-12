@@ -29,6 +29,11 @@ header p {
   margin-bottom: 10px;
 }
 
+img {
+  width: 300px;
+  height: auto; /* This will maintain the aspect ratio of the image */
+}
+
 /* Navigation styles */
 nav {
   background-color: #444;
