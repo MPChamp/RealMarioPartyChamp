@@ -29,11 +29,6 @@ header p {
   margin-bottom: 10px;
 }
 
-img {
-  width: 300px;
-  height: auto; /* This will maintain the aspect ratio of the image */
-}
-
 /* Navigation styles */
 nav {
   background-color: #444;
@@ -42,7 +37,7 @@ nav {
 
 nav a {
   float: left;
-  display: inline-block;
+  display: block;
   color: #fff;
   text-align: center;
   padding: 14px 16px;
@@ -89,6 +84,61 @@ nav .icon {
   }
 }
 
+/* Link styles */
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Main content styles */
+main {
+  margin: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #0077cc;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+td {
+  border-bottom: 1px solid #ccc;
+}
+
+img {
+  width: 300px;
+  height: auto; /* This will maintain the aspect ratio of the image */
+}
 
 /* Footer styles */
 footer {
